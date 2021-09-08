@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background: linear-gradient(#6CACD3,white);
+
+    font-family: 'Urbanist', sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+main img{
+    width: 200px;
+    padding: 10px;
+}
+
+label, select{
+    display:block
+}
+
+input, textarea{
+    margin-bottom: 15px;
+}
+
+select{
+    margin: 0px auto 15px;
+}
+
+.metodoPagamento label, .opcionais label {
+    display: inline-block; 
+}
+
+label{
+    margin: 0 10px 0 0;
+}
+
+.container{
+    padding: 0 35%;
+}
+
+fieldset{
+    border: none
+}
+
+legend{
+    margin: 20px 0;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+button{
+    padding: 15px;
+    color: white;
+    background-color:#0A6082;
+    border-radius: 10px;
+    border: none;
+}
+
+input, textarea, select{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.texto::placeholder {
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+}
